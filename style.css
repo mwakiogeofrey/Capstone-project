@@ -254,7 +254,7 @@ body {
 
   .feature-icon {
     margin: 5px;
-    width: 20vh;
+    width: 10vh;
     height: auto;
   }
 
@@ -273,11 +273,12 @@ body {
   .feature-para {
     font-family: "Lato", sans-serif;
     font-size: 11px;
+    width: 70%;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 15px;
     letter-spacing: 0.06em;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: 10px;
     color: #fff;
     padding-left: 20px;
@@ -285,12 +286,11 @@ body {
 
   .join-btn {
     color: #fff;
-    background-color: #ec5242;
     width: 290px;
     height: 60px;
     font-family: "Lato", sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     align-items: center;
@@ -348,7 +348,6 @@ body {
   .speaker-img {
     width: 30%;
     height: 30%;
-    border-radius: 50%;
   }
 
   .speaker-detail {
@@ -435,6 +434,12 @@ body {
     gap: 15px;
   }
 
+  .d-h-list li img {
+    color: white;
+    width: 20px;
+    height: 20px;
+  }
+
   .de-text {
     color: #fff;
     font-size: 12px;
@@ -464,7 +469,7 @@ body {
 
   .d-list {
     display: flex;
-    gap: 20px;
+    gap: 60px;
     list-style: none;
   }
 
@@ -526,7 +531,6 @@ body {
     flex-direction: column;
     justify-content: left;
     width: 100%;
-    height: auto;
     font-family: "Lato", sans-serif;
     color: #272a31;
     background: url("./images/home-back.png");
@@ -539,19 +543,17 @@ body {
     color: #ec5242;
     display: flex;
     font-size: 40px;
-    justify-content: center;
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 12%;
   }
 
   .main-heading {
     color: #ec5242;
     display: flex;
-    justify-content: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
-    margin-left: 20px;
-    font-size: 60px;
+    margin-left: 12%;
+    font-size: 70px;
     word-spacing: 5px;
   }
 
@@ -559,15 +561,15 @@ body {
     display: flex;
     justify-content: center;
     margin: 1px 10px;
-    border: 4px solid #ec5242;
-    width: 30%;
+    border: 4px solid #d8d7d7;
+    width: 50%;
     padding: 5px 10px;
     left: 30%;
     background-color: #f7f7f8;
     font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 400;
-    margin-left: 30%;
+    margin-left: 12%;
     font-size: 19px;
     line-height: 30px;
     letter-spacing: -0.01em;
@@ -580,13 +582,13 @@ body {
   }
 
   .main-box2-h2 {
-    margin-left: 30%;
+    margin-left: 10%;
     color: #272a31;
     font-weight: bold;
   }
 
   .main-box2-para {
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: -15px;
     font-style: normal;
     font-weight: 400;
@@ -626,6 +628,8 @@ body {
     display: flex;
     flex-direction: row;
     padding: 10px 0 30px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .feature {
@@ -634,7 +638,7 @@ body {
     align-items: center;
     background: #3b3e45;
     height: auto;
-    margin: 15px 15px 0 15px;
+    margin: 5px 1px 0 5px;
     border-radius: 5px;
   }
 
@@ -671,12 +675,11 @@ body {
 
   .join-btn {
     color: #fff;
-    background-color: #ec5242;
     width: 290px;
     height: 60px;
     font-family: "Lato", sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     align-items: center;
@@ -714,27 +717,26 @@ body {
   /* speaker group */
 
   .speaker-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30%;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 30px;
     font-family: "Lato", sans-serif;
   }
 
   .speaker-card {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin: 20px 0;
+    margin: 10px 0;
   }
 
   .speaker-img {
-    width: 30%;
-    height: 30%;
-    border-radius: 50%;
+    width: 40%;
+    height: 80%;
   }
 
   .speaker-detail {
