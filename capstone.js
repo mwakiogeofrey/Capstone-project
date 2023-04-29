@@ -47,7 +47,7 @@ const speakersArray = [
 
   {
     name: 'Nyashinski',
-    img: './images/nyashinski.jpeg',
+    img: './images/Nyashinski.jpeg',
     qualification: 'Nyamari Ongegu known professionally as Nyashinski is a Kenyan rapper and songwriter.',
     para: 'He is a co-founding member of a hip hop trio Kleptomaniax..',
   },
