@@ -39,10 +39,24 @@ const speakersArray = [
   },
 
   {
-    name: 'Yochai Benkler',
+    name: 'Burna boy',
     img: './images/burna-boy.jpeg',
     qualification: 'Burna Boy is a Nigerian singer and songwriter known for his fusion of Afrobeat',
     para: 'He has won several awards, including the BET Awards for Best International Act and a Grammy Award for Best Global Music Album, and has collaborated with various international artists.',
+  },
+
+  {
+    name: 'Nyashinski',
+    img: './images/nyashinski.jpeg',
+    qualification: 'Nyamari Ongegu known professionally as Nyashinski is a Kenyan rapper and songwriter.',
+    para: 'He is a co-founding member of a hip hop trio Kleptomaniax..',
+  },
+
+  {
+    name: 'Otile Brown',
+    img: './images/Otile.jpeg',
+    qualification: 'Jacob Obunga popularly known as Otile Brown is a Kenyan independent R&B singer, songwriter, guitarist and actor',
+    para: 'He gained media attention after the release of his hit single "Imaginary Love" which features Khaligraph Jones. He released his debut studio album',
   },
 ];
 
