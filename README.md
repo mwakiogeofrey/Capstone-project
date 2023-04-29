@@ -159,7 +159,7 @@ If you like this project, you are welcome to contribute or modify this project. 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse and Entire Microverse team. 
+I would like to thank Microverse and Entire Microverse team. and to acknowledge Cindy Shin for the idea of the capstone  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
